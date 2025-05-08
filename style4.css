@@ -1,0 +1,131 @@
+.b{
+  background-color: black;
+
+}
+
+#t1{
+color: white;
+font-family: "Exo 2";
+margin-top: 0%;
+font-size: 50px;
+text-align: center;
+font-weight: 700;
+}
+#s1{
+position: relative;
+top: 60px;
+font-size: 70px;
+margin: auto;
+color: yellow;
+}
+#im{
+border-radius: 20px;
+margin-top: 50px;
+}
+#container{
+height: 350px;
+width: 800px;
+margin-left: 500px;
+margin-top: -371px;
+background-color: rgb(49, 47, 47);
+border-radius: 10px;
+}
+#t2{
+color: white;
+font-size: large;
+padding: 10px;
+font-family: "Exo 2";
+line-height: 40px;
+}
+#b1{
+display: block;
+margin: auto 265px;
+font-size: 30px;
+color: grey;
+height: 100px;
+width: 240px;
+border-radius: 25px;
+background-color: rgb(49, 47, 47);
+border-color: grey;
+outline: none;
+border-style: groove;
+transition: box-shadow 0.2s ease-in;
+}
+#b1:hover{
+cursor: pointer;
+color: white;
+border-color: white;
+box-shadow: inset 0 0 100px 5px rgba(255, 255, 255, 0.5);
+}
+#img2{
+position: relative;
+left: 350px;
+border-radius: 50%;
+border-width: 2px;
+padding: 10px;
+bottom: -140px;
+margin-bottom: 200px;
+border-spacing: 30px;
+border-color: white;
+border-style: groove;
+box-sizing: border-box;
+transition: transform 0.3s ease;
+}
+#img2:hover{
+transform: translateY(-10px);
+}
+#img3{
+position: relative;
+left: 450px;
+border-radius: 50%;
+border-width: 2px;
+padding: 0px;
+bottom: -140px;
+margin-bottom: 200px;
+border-color: white;
+border-style: groove;
+box-sizing: border-box;
+transition: transform 0.3s ease;
+}
+#img3:hover{
+transform: translateY(-10px);
+}
+#img4{
+position: relative;
+left: 550px;
+border-radius: 50%;
+border-width: 2px;
+padding: 0px;
+bottom: -140px;
+margin-bottom: 200px;
+border-color: white;
+border-style: groove;
+box-sizing: border-box;
+transition: transform 0.3s ease;
+}
+#img4:hover{
+transform: translateY(-10px);
+}
+#img5{
+position: relative;
+left: 650px;
+border-radius: 50%;
+border-width: 2px;
+padding: 0px;
+bottom: -140px;
+margin-bottom: 200px;
+border-color: white;
+border-style: groove;
+box-sizing: border-box;
+transition: transform 0.3s ease;
+}
+#img5:hover{
+transform: translateY(-10px);
+}
+#socials{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: center;
+  margin-top: 100px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptic Stay</title>
+    <link rel="icon" type="image/x-icon" href="index-assets/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <nav>
+        <img class="cats" src="index-assets/cat.gif" height="200" width="300" onclick="playAudio()">
+        <b>
+            <p>
+                <span><a href="index.html">Home</a></span>
+                <span><a href="projects.html">Projects</a></span>
+                <span><a href="gallery.html">Gallery</a></span>
+                <span><a href="about-me.html">About Me</a></span>
+            </p>
+        </b>
+        <audio class="kitty" src="index-assets/meow.mp3"></audio>
+        <audio class="rock" src="index-assets/rock.mp3"></audio>
+        <audio class="roll" src="index-assets/roller.mp3"></audio>
+    </nav>
+
+    <p id="greet">Greetings, Stranger!<br></p>
+    <p id="welcome">Welcome To <span id="crypt">My Crypt</span></p>
+
+    <img id="cave" src="index-assets/crypt.png" onmouseover="playRock()" height="150" width="150" onclick="alert('You sure about entering?');">
+
+    <div class="container1">
+        <p class="Lore">My Lore</p>
+        <blockquote><i>Hey there! I am Harshit</i>, a fellow hacker just like you. It has been so much time since I started
+        my coding and hacking journey. I first came to know about Hack Club when I went to a hackathon organized by them.
+        It was the first hackathon experience I ever had and it's the best one till date, <ins>trust me on that one</ins>.
+        <br><br>
+        I have coded using many frameworks and languages and gained so much experience from all of it. Luckily, Hack Club
+        organizes many events to back my experience up with challenges of making some cool projects.
+        </blockquote>
+    </div>
+
+    <p class="proj-text">Some things about me <img id="rick" src="index-assets/rick.gif" height="60px" width="60px"></p>
+
+    <ul>
+        <li>I love cats</li>
+        <li>I love eating pizza</li>
+        <li>I love coding and brainstorming</li>
+        <li>I love playing video games</li>
+        <li>I love spacing out</li>
+        <li>Honourable Mention - <span class="wifi">I hate slow WiFi :<</span></li>
+    </ul>
+
+    <div class="container2">
+        <b><p class="prog">Programming Languages</p></b>
+        <div class="container3">
+            <img src="index-assets/html.png" height="150px" width="150px">
+            <img src="index-assets/css.png" height="150px" width="150px">
+            <img src="index-assets/js.png" height="150px" width="150px">
+            <img src="index-assets/sass.jpeg" height="150px" width="150px">
+            <img src="index-assets/boot.png" height="130px" width="150px" style="padding: 10px;">
+            <img src="index-assets/python.png" height="150px" width="150px">
+            <img src="index-assets/java.png" height="140px" width="140px" style="padding: 5px;">
+            <img src="index-assets/react.png" height="140px" width="140px" style="padding: 5px;">
+            <img src="index-assets/next.png" height="140px" width="140px" style="padding: 5px;">
+            <img src="index-assets/tailwind.png" height="100px" width="150px" style="padding: 20px; padding-top: 30px;">
+        </div>
+    </div>
+
+    <button class="surprise" onclick="surprise()">Surprise Me!</button>
+
+    <div class="socials">
+        <a href="https://discordapp.com/users/776798961607770133"><img id="img2" src="index-assets/dc.png" height="60" width="60"></a>
+        <a href="https://www.linkedin.com/in/harshit-yadav-b0020829a/"><img id="img3" src="index-assets/ln.png" height="60" width="60"></a>
+        <a href="mailto:darknode369@gmail.com"><img id="img4" src="index-assets/gm.png" height="60" width="60"></a>
+        <a href="https://github.com/TGH75972"><img id="img5" src="index-assets/git.png" height="60" width="60"></a>
+    </div>
+
+    <footer>Website Made by Harshit<br>
+    <i>-a fellow hack clubber</i>
+    </footer>
+</body>
+</html>

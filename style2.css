@@ -1,0 +1,31 @@
+div:not(.project-container){
+background-color: rgb(20, 20, 20);
+height: 400px;
+width: 280px;
+margin-top: 40px;
+border-radius: 10px;
+text-align: center;
+font-size: large;
+font-weight: 700;
+}
+button {
+    background-color: rgb(250, 250, 202);
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 0.5s ease;
+}
+button:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+img{
+    transition: 0.2s ease;
+}
+img:hover{
+    transform: scale(0.8);
+}

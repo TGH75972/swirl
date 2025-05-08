@@ -1,0 +1,198 @@
+
+body{
+    font-family: "Exo 2";
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+nav{
+    position: sticky;
+    margin: auto;
+    top: 0;
+    color: white;
+    background-color: rgb(190, 211, 157);
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: end;
+    z-index: 2000;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: aqua;
+}
+span:not(#crypt, .wifi, #s1){
+margin: 20px;
+background-color: rgb(0, 0, 0);
+padding: 10px;
+border-radius: 10px;
+font-size: large;
+}
+span:hover, .cats:hover, .surprise:hover{
+    cursor: pointer;
+}
+.cats{
+    position: absolute;
+    left: 50px;
+    top: -60px;
+}
+#cave:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+#greet,#welcome, #project-text{
+    text-align: center;
+    margin: 100px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+#welcome{
+font-size: 50px;
+}
+#crypt{
+    color: yellow;
+}
+#cave{
+    position: relative;
+    left: 600px;
+    transition: 0.2s ease-in;
+}
+.container1, .container2{
+    height: 500px;
+    width: 1200px;
+    border: 1px solid white;
+    border-left: 0px;
+    border-style:groove;
+    border-right: none;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+.Lore{
+    font-family: "Shadows Into Light", cursive;
+    font-size: 50px;
+    margin: auto;
+    margin-top: 30px;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    width: 500px;
+}
+.Lore:hover{
+    background-color: azure;
+    color: black;
+    border: none;
+}
+blockquote{
+    font-size: 30px;
+}
+
+.proj-text, .prog{
+    font-size: 40px;
+    background-color: aliceblue;
+    color: black;
+    width: 500px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 90px;
+}
+#rick{
+    position: absolute;
+    top: 1275px;
+    left: 520px;
+}
+ul{
+    font-size: 20px;
+    line-height: 50px;
+    margin-left:70px ;
+}
+.wifi{
+    background-color: rgb(167, 61, 61);
+    padding: 10px;
+    border-radius: 5px;
+}
+.prog{
+    margin: auto;
+    margin-top: 20px;
+}
+.container2{
+    border-color: rgb(255, 255, 255);
+    position: relative;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    height: 400px;
+    width: 1200px;
+    margin: auto;
+}
+img:not(.cats):not(#rick):not(#cave):not(.burger-img):not(.joke-img):not(.font-img):not(.flag-img):not(.unit-img):not(.contact-img):not(.pet-img):not(.poll-img) {
+    position: relative;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+img:hover:not(.cats):not(#rick):not(#cave):not(.burger-img):not(.joke-img):not(.font-img):not(.flag-img):not(.unit-img):not(.contact-img):not(.pet-img):not(.poll-img) {
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.socials{
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    width: 500px;
+    margin: auto;
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-bottom: 20px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    height: 80px;
+    width: 220vh;
+    word-spacing: 2px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 20px;
+    border-top: 2px solid white;
+    border-style: dotted;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.surprise{
+    border: none;
+    padding: 10px;
+    position: relative;
+    left: 550px;
+    top: 100px;
+    font-size: 30px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#project-text{
+    font-family: "Shadows Into Light", cursive;
+    font-size: 50px;
+}
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:  20px;
+    height: 1000px;
+    width: 1300px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgb(231, 224, 224);
+}
